@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=m, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Registration Form</h1>
+</head>
+<body style="background-color: #ddecf3; font-family: Arial, sans-serif; padding: 20px;">
+     <fieldset>
+        <legend>Personal Information</legend>
+        <label> Name:</label>
+         <input id="text" placeholder="Enter your name">
+        <br><br>
+        <label>Date of Birth:</label>
+        <input id="Date" type="date">
+        <br><br>
+        <label>Gender :</label>
+        <label>Male</label>
+        <input id="Gender " type="radio" name="hello">
+        <label>Female</label>
+        <input id="Gender" type="radio" name="hello">
+        <label>Other</label>
+        <input id="Gender" type="radio" name="hello">
+     </fieldset>
+     <fieldset>
+        <legend>Contact Information</legend>
+        <label>Email:</label>
+        <input id="email" type="email" placeholder="Enter your email">
+        <br><br>
+        <label>Phone Number:</label>
+        <input id="phone" type="tel" placeholder="Enter your phone number">
+        <br><br>
+        <label>Address:</label>
+        <br>
+        <textarea id="address" rows="4" cols="50" placeholder="Enter your address"></textarea>
+     </fieldset>
+     <fieldset>
+        <legend>Account Details</legend>
+        <label>Username :</label>
+        <input id="username" type="text" placeholder="Enter your username">
+        <br><br>
+        <label>Pasword :</label>
+        <input id="password" type="password" placeholder="Enter your password">
+        <br><br>
+        <label>Confirm Password:</label>
+        <input id="confirm-password" type="password" placeholder="Confirm your password">
+       <br><br>
+     </fieldset>
+     <fieldset>
+        <legend>Preference</legend>
+        <label>Favorite Color :</label>
+        <input type="color" id="color-picker" value="#ff0000">
+        <br><br>
+        <label>Upload Profile Picture:</label>
+        <input id="profile-picture" type="file" accept="image/*">
+        <br><br>
+        <label>Interest :</label>
+        <input id="interest1" type="checkbox" name="interest" value="coding">
+        <label for="interest1">Reading</label>
+        <input id="interest2" type="checkbox" name="interest" value="traveling">
+        <label for="interest2">Traveling</label>
+        <input id="interest3" type="checkbox" name="interest" value="sports">
+        <label for="interest3">Coding</label>
+     </fieldset>
+</body>
+</html>
